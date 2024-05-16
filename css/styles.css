@@ -1,0 +1,92 @@
+/*reset*/
+
+*{
+    margin: 5px;
+    padding: 0;
+    
+}
+
+/* estilos generales*/
+
+body{
+    background-color: #E6E6DD;
+    color: #2B2B2B;
+}
+
+/* estilos del haeder*/
+
+header{
+    background-color: #2B2B2B;
+    color: #E6E6DD;
+    margin: 0px 30px;
+    padding: 10px 20px;
+
+    /* flex */
+    display: flex;
+    justify-content: space-between; /* en row, eje horizontal*/
+    align-items: center; /* en row, eje vertical*/
+    
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 30px;
+}
+
+header img{
+    width: 20%;
+}
+
+/* Estilos main*/
+
+main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+main .textos{
+    text-align: center;
+}
+
+main .textos h1 span{
+    display: block;
+}
+
+
+main .img{
+   
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* estilos footer*/
+
+footer{
+    text-align: center;
+}
+
+/*Estilos para juguetes*/
+
+.white-bg{
+    background-color: white;
+}
+
+main .row{
+    text-align: center;
+}
+
+main p span{
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: tomato;
+}
